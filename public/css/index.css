@@ -1,0 +1,74 @@
+@charset "UTF-8";
+#content .con-top{
+  position: relative;
+  height: 363px;
+}
+#content .container-fluid .carousel-control-prev,
+#content .container-fluid .carousel-control-next{
+  top:42%;
+  width: 4%;
+  height: 16%;
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.2);
+}
+#content .container-fluid .carousel-indicators li{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+#content .con-top .suspend {
+  position: absolute;
+  top: 20px;
+  right:80px;
+  padding: 40px;
+  background:url("../images/index_banner/boxbg.png")no-repeat scroll 0px 0px;
+}
+#content .con-top .suspend .sus-cont{
+  width: 196px;
+  height: 187px;
+}
+.suspend .sus-cont p{
+  line-height: 30px;
+}
+.suspend .sus-cont p span{
+  font-size: 14px;
+  color: #97a0a6;
+}
+.suspend .sus-cont p strong{
+  font-size: 18px;
+  color: #ff7512;
+}
+#content .con-cont{
+  margin-top: 30px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+#content .con-cont p.clearfix {
+  border-bottom: 1px solid #e2e2e2;
+}
+.con-cont p.clearfix span{
+  padding-left: 30px;
+  background: url("../images/laba.png")no-repeat 0px 12px;
+}
+.con-cont p.clearfix span i{
+  font-style: normal;
+}
+.con-cont p.clearfix a{
+  color: #555;
+}
+#content .con-cont .con-cont-mid ul{
+  width: 725px;
+  color: #8d8d8d;
+}
+.con-cont-mid ul li{
+  width: 221px;
+  padding-top:30px ;
+  padding-left: 20px;
+}
+
+.con-cont-mid ul li p.title{
+  height: 25px;
+  padding: 20px 0 10px 50px;
+  background: url("../images/blockpic01.png") no-repeat 0px 0px;
+}
+
