@@ -53,35 +53,83 @@
 .con-cont p.clearfix a{
   color: #555;
 }
-#content .con-cont .con-cont-mid ul{
+#content .con-cont .con-cont-mid ul.con-cont-text{
   width: 725px;
   color: #8d8d8d;
 }
-.con-cont-mid ul li{
-  width: 221px;
+.con-cont-mid ul.con-cont-text li{
+  width: 241px;
   padding-top:30px;
   padding-left: 20px;
 }
-.con-cont-mid ul li span{
+.con-cont-mid ul.con-cont-text li span{
   display: inline-block;
   height: 25px;
   padding: 30px 20px 25px 50px;
 }
-.con-cont-mid ul li .title1{
+.con-cont-mid ul.con-cont-text li .title1{
   background: url("../images/blockpic01.png") no-repeat scroll 0 0;
 }
-.con-cont-mid ul li .title2{
+.con-cont-mid ul.con-cont-text li .title2{
   background: url("../images/blockpic02.png") no-repeat scroll 0 0;
 }
-.con-cont-mid ul li .title3{
+.con-cont-mid ul.con-cont-text li .title3{
   background: url("../images/blockpic03.png") no-repeat scroll 0 0;
 }
-.con-cont-mid ul li p{
+.con-cont-mid ul.con-cont-text li p{
   color: #ff7512
 }
-.con-cont-mid ul li p strong{
+.con-cont-mid ul.con-cont-text li p strong{
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
 }
-
+#content .con-cont .con-cont-mid .con-notice{
+  width: 240px;
+  padding-left: 19px;
+  border-left: 1px solid #e2e2e2;
+  color: #8d8d8d;
+}
+.con-cont .con-cont-mid .con-notice h2{
+  padding: 10px 0;
+  font-size: 16px;
+}
+.con-cont .con-cont-mid .con-notice  ul li{
+  line-height: 25px;
+}
+.con-notice  ul li a{
+  color: #8d8d8d;
+}
+.con-notice  ul li a span{
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+#content .con-content{
+  margin-top: 30px;
+  border: 1px solid #14b2e2;
+  border-radius: 5px;
+  background: #fff;
+}
+#content .con-content .con-content-left{
+  width: 745px;
+}
+#content .con-content .con-content-left .con-content-left-top{
+  padding: 30px 20px 0 20px;
+  border-bottom: 1px solid #e2e2e2;
+  background: url("../images/xinshou.png")no-repeat 0 0 ;
+}
+#content .con-content .con-content-left .con-content-left-top span{
+  font-size: 16px;
+}
+.con-content-left-top .container{
+  width: 280px;
+}
+.con-content-left-top .container .progress{
+  height: 10px;
+  background-color: #e3e3e3;
+}
+.con-content-left-top .container .progress .progress-bar{
+  color: #666;
+}
