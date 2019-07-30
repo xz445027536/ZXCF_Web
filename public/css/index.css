@@ -133,3 +133,31 @@
 .con-content-left-top .container .progress .progress-bar{
   color: #666;
 }
+.con-content-left-top .con-content-left-btm{
+  padding-top: 10px;
+}
+.con-content-left-top .con-content-left-btm li{
+  margin-right: 19px;
+  font-size: 14px;
+  line-height: 45px;
+  color: #97a0a6;
+}
+.con-content-left-top .con-content-left-btm li strong{
+  font-size: 22px;
+  color: #ffa800;
+  font-weight: bold;
+}
+.con-content-left-top .con-content-left-btm li span{
+  color: #555;
+}
+.con-content-left-top .con-content-left-btm li .btn{
+  width: 125px;
+  height: 35px;
+  border: 1px solid #14b2e2;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #14b2e2;
+}
+#content .con-content .con-content-left .btm{
+  background-image: url("../images/tiyan.png");
+}
