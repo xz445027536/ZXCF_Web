@@ -48,7 +48,7 @@
 }
 .con-cont p.clearfix span{
   padding-left: 30px;
-  background: url("../images/laba.png")no-repeat 0px 12px;
+  background: url("../images/laba.png")no-repeat 0px 4px;
 }
 .con-cont p.clearfix a{
   color: #555;
@@ -128,13 +128,11 @@
 }
 .con-content-left-top .container .progress{
   height: 10px;
+  margin-top: 7px;
   background-color: #e3e3e3;
 }
 .con-content-left-top .container .progress .progress-bar{
   color: #666;
-}
-.con-content-left-top .con-content-left-btm{
-  padding-top: 10px;
 }
 .con-content-left-top .con-content-left-btm li{
   margin-right: 19px;
@@ -160,4 +158,91 @@
 }
 #content .con-content .con-content-left .btm{
   background-image: url("../images/tiyan.png");
+}
+#content .con-content-right img{
+  width: 253px;
+}
+#content .con-content-right .con-content-right-title{
+  width: 253px;
+  height: 35px;
+  background-color: #14b2e2;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+}
+#content .con-btm{
+  margin-top: 30px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  background-color: #fff;
+}
+#content .con-btm>ul{
+  position: relative;
+  height: 47px;
+  padding: 0 20px;
+  border-bottom: 1px solid #e2e2e2;
+  line-height: 47px;
+}
+#content .con-btm>ul li.comm{
+  width: 125px;
+  border-bottom: 3px solid transparent;
+  font-size: 18px;
+}
+#content .con-btm>ul li.comm:hover{
+  border-bottom-color: #14b2e2;
+}
+#content .con-btm>ul>.ul_a{
+  position: absolute;
+  right: 20px;
+}
+#content .con-btm>ul li a{
+  height: 45px;
+  line-height: 45px;
+  color: #959595;
+}
+#content .con-btm>ul li a{
+  border:none;
+}
+#content .con-btm .tab-content .tab-pane .invest-cont{
+  padding: 35px 20px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.tab-content .tab-pane .invest-cont>span{
+  width: 76px;
+  height: 56px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+.tab-content .tab-pane .invest-cont .invest-cont-details{
+  width: 670px;
+  height: 24px;
+
+}
+.invest-cont .invest-cont-details >.invest-cont-details-top >span{
+  font-size: 16px;
+  color: #000;
+}
+.invest-cont-details >.invest-cont-details-top >.progress{
+  width: 230px;
+  height: 10px;
+  margin-top: 7px;
+}
+.tab-content .tab-pane .invest-cont .invest-cont-details >ul{
+  padding-top: 10px;
+}
+.tab-content .tab-pane .invest-cont .invest-cont-details >ul li{
+  margin-right: 69px;
+  font-size: 16px;
+  color: #97a0a6;
+}
+.invest-cont .invest-cont-details>ul>li>span{
+  color: #ffa800;
+  font-weight: bold;
+}
+.tab-content .tab-pane .invest-cont>.btn{
+  width: 120px;
+  height: 36px;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: #14b2e2;
 }
