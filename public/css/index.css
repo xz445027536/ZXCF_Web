@@ -246,3 +246,46 @@
   margin-left: 40px;
   background-color: #14b2e2;
 }
+.tab-content>.tab-pane>.regular>.regular-title>span.regular-icon{
+  width: 4px;
+  height: 26px;
+  background-color: #14b2e2;
+  vertical-align: middle;
+}
+.tab-content>.tab-pane>.regular>.regular-title>span.regular-tit{
+  padding: 0 10px;
+  font-size: 24px;
+  color: #555;
+}
+.tab-content>.tab-pane>.regular>.regular-title>span.regular-cont{
+  font-size: 16px;
+  color: #8d8d8d;
+}
+.tab-content>.tab-pane>.regular>.regular-con{
+  width: 700px;
+}
+.tab-content>.tab-pane>.regular>.regular-con .regular-con-left{
+  width: 300px;
+  padding:30px 20px 0 40px;
+  background: url("../images/regular-con-bg.jpg")no-repeat 0px 0px;
+}
+.regular>.regular-con .regular-con-left .h3{
+  font-size: 26px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.regular>.regular-con .regular-con-left p:nth-child(2){
+  font-size: 40px;
+  color: #ffa800;
+}
+.regular>.regular-con .regular-con-left p:nth-child(3),
+.regular>.regular-con .regular-con-left p:nth-child(4){
+  font-size: 14px;
+}
+.regular>.regular-con .regular-con-left a.btn{
+  width: 160px;
+  height: 45px;
+  background-color: #ffa800; 
+  font-size: 18px;
+  line-height: 37px;
+}
