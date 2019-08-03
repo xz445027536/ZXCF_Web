@@ -1,0 +1,65 @@
+@charset "UTF-8";
+footer{
+  margin: 25px 0
+}
+footer>.f-top{
+  padding-top: 25px;
+  padding-bottom: 5px;
+  background-color: #e4e4e7;
+}
+footer>.f-top>.w-1000>.f-t-left>div{
+  padding-right: 25px;
+  line-height: 25px;
+}
+footer>.f-top>.w-1000>.f-t-left>.app{
+  padding-top: 10px;
+}
+.f-t-left>.f-con p{
+  padding-bottom: 20px;
+}
+.f-t-left>.f-con strong{
+  font-size: 18px;
+  font-weight: bold;
+  color: #6c6c6c;
+}
+.f-t-left>.f-pic p.pic{
+  padding-bottom: 10px;
+}
+.f-t-left>.f-pic p.pic a{
+  margin-right: 20px;
+}
+.f-t-left>.f-pic p.email a{
+  font-size: 14px;
+  color: #666;
+}
+footer>.f-top>.w-1000>.f-t-right{
+  width: 500px;
+}
+.f-t-right .code{
+  width: 110px;
+  height: 110px;
+}
+.f-t-right div{
+  width: 390px;
+  padding-left: 20px;
+}
+.f-t-right div a{
+  display: inline-block;
+  padding: 20px 7px 10px;
+  line-height: 80px;
+  font-size: 14px;
+  color: #555;
+}
+.f-t-right div a:hover{
+  color: #ccc;
+}
+footer>.f-btm{
+  padding: 25px 0;
+  background-color: #48474a;
+}
+footer>.f-btm>.w-1000>.f-btm-con{
+  font-size: 14px;
+}
+footer>.f-btm>.w-1000>.f-btm-con p span + span{
+  margin-left: 15px;
+}
