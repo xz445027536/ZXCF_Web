@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.login_box{
+  height: 698px;
+  background: url("../images/lg_bg01.png")no-repeat center center;
+}
+.LogReg>.LogReg-con{
+  padding-top: 50px;
+}
+.LogReg>.LogReg-con>.LogReg_section{
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+.login_pic{
+  width: 617px;
+}
+.LogReg>.LogReg-con>.LogReg_section>.LogReg_section_pic img{
+  vertical-align: middle;
+}
+.login_con{
+  width: 381px;
+  padding: 33px 40px;
+}
+.LogReg_section>.LogReg_section_con>h2 span{
+  font-size: 18px;
+}
+.LogReg_section>.LogReg_section_con>h2 i{
+  font-size: 14px;
+}
+.LogReg_section>.LogReg_section_con>h2 i a{
+  color: red;
+  margin-left: -5px;
+}
+.LogReg_section>.LogReg_section_con>.text{
+  padding: 20px 0;
+}
+.LogReg_section>.LogReg_section_con>.text input{
+  width: 298px;
+  height: 42px;
+  padding-left: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 40px;
+  font-size: 14px;
+  outline: none;
+}
+.LogReg_section>.LogReg_section_con>.text input.username{
+  background: url("../images/lg_name.png")no-repeat 0 -3px;
+}
+.LogReg_section>.LogReg_section_con>.text input.password{
+  background: url("../images/lg_pas.png")no-repeat 0 -3px;
+}
+.LogReg_section>.LogReg_section_con>.checkbox{
+  padding: 10px 0;
+  font-size: 14px;
+}
+.LogReg_section>.LogReg_section_con>.checkbox span input{
+  vertical-align: middle;
+  margin-right: -3px;
+}
+.LogReg_section>.LogReg_section_con>.checkbox>a{
+  color: #555;
+}
+.LogReg_section>.LogReg_section_con div>.btn{
+  height: 40px;
+  background-color: #14b2e2;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.reg_box{
+  height: 910px;
+  background:url("../images/reg_bg01.png")no-repeat center center;
+}
+.reg_pic{
+  width: 604px;
+}
+.reg_con{
+  width: 394px;
+  padding: 32px 40px;
+}
+.LogReg_section>.LogReg_section_con>.text input.phone{
+  background: url("../images/lg_phone.png")no-repeat 0 -1px;
+}
+.LogReg_section>.LogReg_section_con>.text input.email{
+  background: url("../images/lg_email.png")no-repeat 7px 11px;
+  background-size: 22px;
+}

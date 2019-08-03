@@ -1,7 +1,12 @@
 @charset "UTF-8";
+#content{
+  padding-bottom: 25px;
+  background-color: #f3f3f3;
+}
 #content .con-top{
   position: relative;
-  height: 363px;
+  height: 315px;
+  background-color: #fff;
 }
 #content .container-fluid .carousel-control-prev,
 #content .container-fluid .carousel-control-next{
@@ -19,7 +24,7 @@
 #content .con-top .suspend {
   position: absolute;
   top: 20px;
-  left:60px;
+  right:60px;
   padding: 40px;
   background:url("../images/index_banner/boxbg.png")no-repeat scroll 0px 0px;
 }
@@ -42,6 +47,7 @@
   margin-top: 30px;
   border: 1px solid #e2e2e2;
   border-radius: 4px;
+  background-color: #fff;
 }
 #content .con-cont p.clearfix {
   border-bottom: 1px solid #e2e2e2;
@@ -248,7 +254,6 @@
   margin-left: 40px;
   background-color: #14b2e2;
 }
-<<<<<<< HEAD
 .tab-content>.tab-pane>.pro-area{
   border:1px solid  #e2e2e2;
 
@@ -263,20 +268,10 @@
   vertical-align: middle;
 }
 .tab-content>.tab-pane>.pro-area>.regular-title>span.regular-tit{
-=======
-.tab-content>.tab-pane>.regular>.regular-title>span.regular-icon{
-  width: 4px;
-  height: 26px;
-  background-color: #14b2e2;
-  vertical-align: middle;
-}
-.tab-content>.tab-pane>.regular>.regular-title>span.regular-tit{
->>>>>>> 82b1ea578cca683783a75c762233e776cfbee369
   padding: 0 10px;
   font-size: 24px;
   color: #555;
 }
-<<<<<<< HEAD
 .tab-content>.tab-pane>.pro-area>.regular-title>span.regular-cont{
   font-size: 16px;
   color: #8d8d8d;
@@ -286,30 +281,15 @@
   width: 700px;
 }
 .tab-content>.tab-pane>.pro-area>.regular-con .regular-con-left{
-=======
-.tab-content>.tab-pane>.regular>.regular-title>span.regular-cont{
-  font-size: 16px;
-  color: #8d8d8d;
-}
-.tab-content>.tab-pane>.regular>.regular-con{
-  width: 700px;
-}
-.tab-content>.tab-pane>.regular>.regular-con .regular-con-left{
->>>>>>> 82b1ea578cca683783a75c762233e776cfbee369
   width: 300px;
   padding:30px 20px 0 40px;
   background: url("../images/regular-con-bg.jpg")no-repeat 0px 0px;
 }
-<<<<<<< HEAD
 .pro-area>.regular-con .regular-con-left .h3{
-=======
-.regular>.regular-con .regular-con-left .h3{
->>>>>>> 82b1ea578cca683783a75c762233e776cfbee369
   font-size: 26px;
   overflow: hidden;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
 .pro-area>.regular-con .regular-con-left p:nth-child(2){
   font-size: 40px;
   color: #ffa800;
@@ -466,9 +446,9 @@
 .hq-data-con>.line{
   position: absolute;
   left: 50%;
-  top:45px;
+  top:42px;
   width: 2px;
-  height: 205px;
+  height: 258px;
   border-right: 1px dashed #ddd;
 }
 .hq-data-con .data-list>div{
@@ -511,20 +491,4 @@
   height: 40px;
   margin-right: 15px;
   background-color: #ffa800;
-=======
-.regular>.regular-con .regular-con-left p:nth-child(2){
-  font-size: 40px;
-  color: #ffa800;
-}
-.regular>.regular-con .regular-con-left p:nth-child(3),
-.regular>.regular-con .regular-con-left p:nth-child(4){
-  font-size: 14px;
-}
-.regular>.regular-con .regular-con-left a.btn{
-  width: 160px;
-  height: 45px;
-  background-color: #ffa800; 
-  font-size: 18px;
-  line-height: 37px;
->>>>>>> 82b1ea578cca683783a75c762233e776cfbee369
 }
