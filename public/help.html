@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/help.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>帮助中心</title>
+</head>
+<body>
+  <!--header部分-->
+  <header>
+    <!--header上部分-->
+    <div class="h-top py-1">
+      <div class="h-top-con w-1000 clearfix">
+        <!--header上左部分-->
+        <div class="float-left" >
+          <img src="images/index-header/header_phone.png" alt="">
+          <span class="pl-1">400-027-0101(工作时间 9:00——17:00)</span>
+          <a class="pl-3" href=""><img src="images/index-header/header_weixin.png" alt=""></a>
+          <a class="pl-3" href=""><img src="images/index-header/header_sina.png" alt=""></a>
+          <a class="pl-3" href=""><img src="images/index-header/header_qq.png" alt=""></a>
+        </div>
+        <!--header上右部分-->
+        <div class="float-right">
+          <a class="pr-3" href="login.html">立即登录</a>
+          <a class="px-3" href="register.html">免费注册</a>
+          <a class="pl-3" href="">常见问题</a>
+        </div>
+      </div>
+    </div>
+    <!--header中部-->
+    <div class="h-mid">
+      <div class="w-1000 clearfix">
+        <!--logo-->
+        <div class="float-left">
+          <img class="w-100" src="images/index-header/logo.png" alt="">
+        </div>
+        <!--我的账户-->
+        <div class="float-right">
+          <a href="">
+            <img src="images/index-header/header_perinfo.png" alt="">
+            <span class="pl-1">
+                <i>我的账户</i>
+                <img src="images/index-header/header_icon01.png" alt="">
+              </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="h-btm">
+      <div class="w-1000">
+        <a href="index.html">首页</a>
+        <a href="">我要投资</a>
+        <a href="">我要借款</a>
+        <a href="">实时财务</a>
+        <a href="">帮助中心</a>
+        <a class="m-0" href="">关于我们</a>
+      </div>
+    </div>
+  </header>
+  <!--content部分-->
+  <div class="help">
+    <div class="container w-1000 px-0 clearfix">
+      <!--左侧导航栏-->
+      <div class="nav nav-tabs float-left">
+        <h3 class="text-center w-100 mb-0">
+          <a class="text-white" href="help.html">帮助中心</a>
+        </h3>
+        <div class="nav-con w-100">
+          <!--账户管理-->
+          <div class="account">
+            <h4 class="mb-0 w-100 acc-tit">账户管理</h4>
+            <span class="nav-item">
+              <a data-toggle="tab" class="nav-link border-0 d-inline-block p-0" href="#zhfw">账号服务</a>
+            </span>
+            <span class="nav-item">
+              <a class="nav-link border-0 d-inline-block p-0" href="">实名认证</a>
+            </span>
+            <span class="nav-item">
+              <a class="nav-link border-0 d-inline-block p-0" href="">手机服务</a>
+            </span>
+            <span class="nav-item">
+              <a class="nav-link border-0 d-inline-block p-0" href="">密码找回</a>
+            </span>
+            <span class="nav-item">
+              <a class="nav-link border-0 d-inline-block p-0" href="">会员中心</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!--右侧内容-->
+      <div class="tab-content float-right">
+        <!--账号服务内容-->
+        <div id="zhfw" class="tab-pane active show">
+          <h3 class="mb-0">
+            <span class="d-block text-center">账号服务</span>
+          </h3>
+          <div class="card border-0">
+            <div class="card-header bg-white border-0">
+              <a class="card-link" data-toggle="collapse" href="#zhfw_txt1">如何注册投资？</a>
+            </div>
+            <div data-parent="#zhfw" id="zhfw_txt1" class="collapse">
+              <div class="card-body">
+                <p class="mb-0">出借人可以是个人（自然人），或者企业（法人）。</p>
+                <p class="mb-0">个人年满18周岁，拥有个人名下的借记卡，具有完全民事行为能力就可注册。存续中的证照齐全的企业也可以注册。</p>
+                <p class="mb-0">可选择任一渠道进行注册：</p>
+                <p class="mb-0">1、登录中兴财富官网，网址：http://www.whzxcf.com</p>
+                <p class="mb-0">2、进入应用市场搜索下载“中兴财富”APP</p>
+                <p class="mb-0">3、关注中兴财富微信公众号：中兴财富金融（微信号：hbzxcf）</p>
+                <p class="mb-0">通过输入本人名下手机号，获取手机验证码，设置登录密码，即可成功注册为中兴财富出借人，激活银行存管账户，即可进行账户充值与投资。</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-header bg-white border-0">
+              <a class="card-link" data-toggle="collapse" href="#zhfw_txt2">注册时为何收不到验证码？</a>
+            </div>
+            <div data-parent="#zhfw" id="zhfw_txt2" class="collapse">
+              <div class="card-body">
+                <p class="mb-0">1）您查看您输入的信息是否符合要求。</p>
+                <p class="mb-0">用户名：6~25个字符，可使用字母、数字及(_、@-)字符。</p>
+                <p class="mb-0">密码：设置为至少8位的英文或数字。</p>
+                <p class="mb-0">手机号：是否正确。</p>
+                <p class="mb-0">2）若手机安装了拦截软件有可能被拦截，您可以查看一下拦截记录/垃圾短信，是否被拦截。</p>
+                <p class="mb-0">3）由于短信运营商通道可能会出现阻塞情况，有时短信会出现延时或者失败的情况。</p>
+                <p class="mb-0">若仍然收不到验证码，请联系客服。客服电话：400-027-0101</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer部分-->
+  <footer>
+    <div class="f-top ">
+      <div class="w-1000 clearfix">
+        <div class="f-t-left float-left clearfix">
+          <div class="app float-left">
+            <a href="">
+              <img src="images/app.png" alt="">
+            </a>
+          </div>
+          <div class="f-con float-left">
+            <p class="mb-0">服务热线</p>
+            <strong>400-027-0111</strong>
+          </div>
+          <div class="f-pic float-left">
+            <p class="mb-0 pic">
+              <a href="">
+                <img src="images/ft_sina.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/ft_weixin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/ft_erji.png" alt="">
+              </a>
+            </p>
+            <p class="mb-0 email">
+              <a href="">kefu@zhongxincaifu.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="f-t-right float-right clearfix">
+          <a class="code float-left d-inline-block" href="">
+            <img src="images/ft_erweima.png" alt="">
+          </a>
+          <div class="float-left">
+            <a href="">联系我们</a>
+            <a href="">我要融资</a>
+            <a href="">我要理财</a>
+            <a href="">帮助中心</a>
+            <a href="">招贤纳士</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="f-btm">
+      <div class="w-1000">
+        <div class="f-btm-con clearfix text-white">
+          <p class="mb-0 float-left">
+            <span>© 2018 zhongxincaifu</span>
+            <span>中兴财富金融信息服务股份有限公司</span>
+            <span>鄂ICP备18017254号-1</span>
+          </p>
+          <p class="mb-0 float-right">
+            <a href="">
+              <img src="images/360.png" alt="">
+            </a>
+            <a class="ml-2" href="">
+              <img src="images/kexin.png" alt="">
+            </a>
+            <a class="ml-2" href="">
+              <img src="images/norton.png" alt="">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
