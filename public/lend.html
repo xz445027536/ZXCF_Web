@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/lend.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>我要出借</title>
+</head>
+<body>
+  <!--header部分-->
+  <header>
+    <!--header上部分-->
+    <div class="h-top py-1">
+      <div class="h-top-con w-1000 clearfix">
+        <!--header上左部分-->
+        <div class="float-left" >
+          <img src="images/index-header/header_phone.png" alt="">
+          <span class="pl-1">400-027-0101(工作时间 9:00——17:00)</span>
+          <a class="pl-3" href=""><img src="images/index-header/header_weixin.png" alt=""></a>
+          <a class="pl-3" href=""><img src="images/index-header/header_sina.png" alt=""></a>
+          <a class="pl-3" href=""><img src="images/index-header/header_qq.png" alt=""></a>
+        </div>
+        <!--header上右部分-->
+        <div class="float-right">
+          <a class="pr-3" href="login.html">立即登录</a>
+          <a class="px-3" href="register.html">免费注册</a>
+          <a class="pl-3" href="help.html">常见问题</a>
+        </div>
+      </div>
+    </div>
+    <!--header中部-->
+    <div class="h-mid">
+      <div class="w-1000 clearfix">
+        <!--logo-->
+        <div class="float-left">
+          <img class="w-100" src="images/index-header/logo.png" alt="">
+        </div>
+        <!--我的账户-->
+        <div class="float-right">
+          <a href="">
+            <img src="images/index-header/header_perinfo.png" alt="">
+            <span class="pl-1">
+                <i>我的账户</i>
+                <img src="images/index-header/header_icon01.png" alt="">
+              </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="h-btm">
+      <div class="w-1000">
+        <a href="index.html">首页</a>
+        <a href="">我要理财</a>
+        <a href="lend.html">我要借款</a>
+        <a href="">积分商城</a>
+        <a href="help.html">帮助中心</a>
+        <a class="m-0" href="">关于我们</a>
+      </div>
+    </div>
+  </header>
+  <div class="lend">
+    <div class="container lend-con w-1000 clearfix px-0">
+      <!--左侧导航-->
+      <ul class="nav nav-tabs float-left">
+        <li class="nav-item w-100 m-0">
+          <a class="nav-link border-0 p-0" data-toggle="tab" href="#loan">出借项目</a>
+        </li>
+        <li class="nav-item w-100 m-0">
+          <a class="nav-link border-0 p-0" data-toggle="tab" href="#claims">债权转让</a>
+        </li>
+      </ul>
+      <!--右侧内容-->
+      <div class="tab-content float-right">
+        <div class="comm">
+          <div class="clearfix">
+            <span class="float-left">项目期限：</span>
+            <a class="float-left" href="javascript:;">不限</a>
+            <a class="float-left" href="javascript:;">小于1个月</a>
+            <a class="float-left" href="javascript:;">2-3个月</a>
+            <a class="float-left" href="javascript:;">4-6个月</a>
+            <a class="float-left" href="javascript:;">7-12个月</a>
+            <a class="float-left" href="javascript:;">12-36个月</a>
+          </div>
+          <div class="clearfix">
+            <span class="float-left">项目状态：</span>
+            <a class="float-left" href="javascript:;">不限</a>
+            <a class="float-left" href="javascript:;">所有借款</a>
+            <a class="float-left" href="javascript:;">正在招标的借款</a>
+            <a class="float-left" href="javascript:;">已成功借款</a>
+            <a class="float-left" href="javascript:;">已完成借款</a>
+          </div>
+          <div class="clearfix">
+            <span class="float-left">项目状态：</span>
+            <a class="float-left" href="javascript:;">不限</a>
+            <a class="float-left" href="javascript:;">先息后本</a>
+            <a class="float-left" href="javascript:;">等额本息</a>
+          </div>
+        </div>
+        <!--出借项目内容-->
+        <div id="loan" class="tab-pane active show">
+          <div class="loan-menu clearfix">
+            <span class="float-left">排列方式</span>
+            <a class="float-left" href="">综合排序</a>
+            <a class="float-left" href="">收益率</a>
+            <a class="float-left" href="">发布时间</a>
+            <a class="float-left" href="">项目期限</a>
+          </div>
+          <!--消费分期-->
+          <div class="loan-con">
+            <h3 class="clearfix">
+              <a class="float-left" href="">消费分期6.00万元</a>
+              <span class="float-left span1">加息奖励：1%~1.5%</span>
+              <span class="float-left span2">等额本息</span>
+              <div class="float-right">市场有风险，出借需谨慎！</div>
+            </h3>
+            <div class="loan-con-btm clearfix">
+              <div class="float-left w160">
+                <h4 class="color086">11％</h4>
+                <p>借款人拟支付年利率</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="colorff7">3个月</h4>
+                <p>借款期限</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="color02">6万</h4>
+                <p>借款金额</p>
+              </div>
+              <div class="float-left w300">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuetext="100" style="width: 100%">100%</div>
+                </div>
+                <div class="clearfix pt7">
+                  <div class="float-left">
+                    <p>
+                      剩余金额：
+                      <span class="colorff7">0.00</span>
+                      元
+                    </p>
+                  </div>
+                  <a class="float-right aBtn" href="javascript:;">还款中</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--培训分期-->
+          <div class="loan-con">
+            <h3 class="clearfix">
+              <a class="float-left" href="">培训分期4.00万元</a>
+              <span class="float-left span1">降低利息：1%~1.5%</span>
+              <span class="float-left span2">先息后本</span>
+              <div class="float-right">市场有风险，出借需谨慎！</div>
+            </h3>
+            <div class="loan-con-btm clearfix">
+              <div class="float-left w160">
+                <h4 class="color086">10％</h4>
+                <p>借款人拟支付年利率</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="colorff7">9个月</h4>
+                <p>借款期限</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="color02">4万</h4>
+                <p>借款金额</p>
+              </div>
+              <div class="float-left w300">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuetext="100" style="width: 100%">100%</div>
+                </div>
+                <div class="clearfix pt7">
+                  <div class="float-left">
+                    <p>
+                      剩余金额：
+                      <span class="colorff7">0.00</span>
+                      元
+                    </p>
+                  </div>
+                  <a class="float-right aBtn" href="javascript:;">还款中</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--旅游分期-->
+          <div class="loan-con">
+            <h3 class="clearfix">
+              <a class="float-left" href="">旅游分期8.00万元</a>
+              <span class="float-left span1">加息奖励：1%~1.5%</span>
+              <span class="float-left span2">等额本息</span>
+              <div class="float-right">市场有风险，出借需谨慎！</div>
+            </h3>
+            <div class="loan-con-btm clearfix">
+              <div class="float-left w160">
+                <h4 class="color086">11.5％</h4>
+                <p>借款人拟支付年利率</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="colorff7">10个月</h4>
+                <p>借款期限</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="color02">8万</h4>
+                <p>借款金额</p>
+              </div>
+              <div class="float-left w300">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuetext="100" style="width: 100%">100%</div>
+                </div>
+                <div class="clearfix pt7">
+                  <div class="float-left">
+                    <p>
+                      剩余金额：
+                      <span class="colorff7">0.00</span>
+                      元
+                    </p>
+                  </div>
+                  <a class="float-right aBtn" href="javascript:;">还款中</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--公司经营分期-->
+          <div class="loan-con">
+            <h3 class="clearfix">
+              <a class="float-left" href="">公司经营分期10.00万元</a>
+              <span class="float-left span1">加息奖励：1%~1.5%</span>
+              <span class="float-left span2">等额本息</span>
+              <div class="float-right">市场有风险，出借需谨慎！</div>
+            </h3>
+            <div class="loan-con-btm clearfix">
+              <div class="float-left w160">
+                <h4 class="color086">12％</h4>
+                <p>借款人拟支付年利率</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="colorff7">12个月</h4>
+                <p>借款期限</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="color02">10万</h4>
+                <p>借款金额</p>
+              </div>
+              <div class="float-left w300">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuetext="100" style="width: 100%">100%</div>
+                </div>
+                <div class="clearfix pt7">
+                  <div class="float-left">
+                    <p>
+                      剩余金额：
+                      <span class="colorff7">0.00</span>
+                      元
+                    </p>
+                  </div>
+                  <a class="float-right aBtn" href="javascript:;">还款中</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--债权转让内容-->
+        <div id="claims" class="tab-pane">
+          <div class="loan-con">
+            <h3 class="clearfix">
+              <a class="float-left" href="">【经营周转】能源公司25.00万元</a>
+              <div class="float-right">市场有风险，出借需谨慎！</div>
+            </h3>
+            <div class="loan-con-btm clearfix">
+              <div class="float-left w160">
+                <h4 class="color086">5％</h4>
+                <p>借款人拟支付年利率</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="colorff7">12个月</h4>
+                <p>借款期限</p>
+              </div>
+              <div class="float-left w160">
+                <h4 class="color02">25万</h4>
+                <p>借款金额</p>
+              </div>
+              <div class="float-left w300">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuetext="100" style="width: 100%">100%</div>
+                </div>
+                <div class="clearfix pt7">
+                  <div class="float-left">
+                    <p>
+                      剩余金额：
+                      <span class="colorff7">0.00</span>
+                      元
+                    </p>
+                  </div>
+                  <a class="float-right aBtn" href="javascript:;">还款中</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer部分-->
+  <footer>
+    <div class="f-top ">
+      <div class="w-1000 clearfix">
+        <div class="f-t-left float-left clearfix">
+          <div class="app float-left">
+            <a href="">
+              <img src="images/app.png" alt="">
+            </a>
+          </div>
+          <div class="f-con float-left">
+            <p class="mb-0">服务热线</p>
+            <strong>400-027-0111</strong>
+          </div>
+          <div class="f-pic float-left">
+            <p class="mb-0 pic">
+              <a href="">
+                <img src="images/ft_sina.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/ft_weixin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/ft_erji.png" alt="">
+              </a>
+            </p>
+            <p class="mb-0 email">
+              <a href="">kefu@zhongxincaifu.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="f-t-right float-right clearfix">
+          <a class="code float-left d-inline-block" href="">
+            <img src="images/ft_erweima.png" alt="">
+          </a>
+          <div class="float-left">
+            <a href="">联系我们</a>
+            <a href="">我要融资</a>
+            <a href="">我要理财</a>
+            <a href="">帮助中心</a>
+            <a href="">招贤纳士</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="f-btm">
+      <div class="w-1000">
+        <div class="f-btm-con clearfix text-white">
+          <p class="mb-0 float-left">
+            <span>© 2018 zhongxincaifu</span>
+            <span>中兴财富金融信息服务股份有限公司</span>
+            <span>鄂ICP备18017254号-1</span>
+          </p>
+          <p class="mb-0 float-right">
+            <a href="">
+              <img src="images/360.png" alt="">
+            </a>
+            <a class="ml-2" href="">
+              <img src="images/kexin.png" alt="">
+            </a>
+            <a class="ml-2" href="">
+              <img src="images/norton.png" alt="">
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

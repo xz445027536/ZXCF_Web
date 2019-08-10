@@ -50,10 +50,7 @@
   padding: 0 50px;
   background-color: #fff;
 }
-.w-1000 .tab-content .tab-pane{
-  padding: 30px 0;
-}
-.w-1000 .tab-content .tab-pane h3{
+.container .tab-content .tab-pane h3{
   height: 68px;
   border-bottom: 2px solid #eee;
   line-height: 68px;
@@ -66,28 +63,34 @@
   border-bottom: 2px solid #ffc94f;
   color: #ffc94f;
 }
-.tab-pane>.card{
+.tab-content .tab-pane>.help-con{
+  padding: 30px 0;
   font-size: 14px;
+}
+
+.tab-content .tab-pane .help-con .help-des .help-tit{
+  padding-left: 25px;
+  background:url("../images/icon_icon.png")no-repeat 10px 20px;
+  line-height: 48px;
+}
+.tab-pane .help-con .help-des .help-tit a{
   color: #555;
 }
-.tab-pane>.card>.card-header{
-  background:url("../images/icon_icon.png")no-repeat 5px 19px;
-}
-.tab-pane>.card>.card-header a{
-  color: #555;
-}
-.tab-pane>.card>.card-header:hover a{
+.tab-pane .help-con .help-des .help-tit:hover a{
   color: #ffc94f;
 }
-.tab-pane>.card>.collapse>{
+.tab-pane .help-con .help-des .help-txt{
+  display: none;
   padding: 10px 25px;
   border-radius: 10px;
-}
-.tab-pane>.card>.collapse>.card-body{
-  line-height: 26px;
   background-color: #f6f6f6;
+  line-height: 26px;
+  transition: height 1s linear;
 }
-.tab-pane>.card>.collapse .card-body p{
+.tab-pane .help-con .help-des .on{
+  display: block;
+}
+.tab-pane .help-con .help-des .help-txt p{
   margin-bottom: 0;
-  /*text-indent: 28px;*/
+  text-indent: 28px;
 }

@@ -1,6 +1,7 @@
 function reguser(){
   var $uname=uname.value;
   var $upwd=upwd.value;
+  var $qpwd=qpwd.value;
   var $phone=phone.value;
   var $eamil=email.value;
   //创建xhr异步对象
