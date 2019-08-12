@@ -48,7 +48,7 @@ header .h-mid .float-right i{
   color: #555;
 }
 header .h-btm{
-  background-color: #48474a;
+  background-color: #ffa800;
 }
 header .h-btm a{
   display: inline-block;
@@ -58,5 +58,5 @@ header .h-btm a{
   color: #fff;
 }
 header .h-btm a:hover{
-  background-color: #5d5b5f;
+  background-color: #FC9E0D;
 }

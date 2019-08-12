@@ -1,6 +1,10 @@
 @charset "UTF-8";
+.lend .lend-img{
+  height: 275px;
+  background: url("../images/bor_banner01.png") no-repeat center;
+}
 .lend .lend-con{
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 60px;
 }
 .lend .lend-con .nav{
