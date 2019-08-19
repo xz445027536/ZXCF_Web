@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.top-img{
+  width: 100%;
+  min-width: 1200px;
+  height: 320px;
+  background:url("../images/investbn.jpg")no-repeat center;
+}
