@@ -3,16 +3,227 @@
   width: 100%;
   min-width: 1000px;
 }
-.shop .goodsP1{
+.shop .shopCon1{
   width: 100%;
   height: 400px;
   background-image:linear-gradient(to bottom,#D5E2F3,#fff) ;
 }
-.goodsP1 .w-1000{
+.shopCon1 .w-1000{
   margin-top:15px ;
 }
-.goodsP1 .right{
+.shopCon1 .right{
   width: 240px;
   height: 340px;
   background: url("../images/loginbg.png")no-repeat 0 0;
+}
+.shopCon1 .right .goodsP1con{
+  height: 113px;
+  padding-top:230px ;
+}
+.shopCon1 .right .goodsP1con>a{
+  display: block;
+  width: 155px;
+  height: 66px;
+  margin: 0 auto;
+  background: url("../images/loginBtn.png")no-repeat center;
+  line-height: 53px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #fff;
+}
+.shopCon1 .right .goodsP1con p{
+  text-align: center;
+  font-size: 14px;
+  color: #fddc13;
+}
+.shopCon1 .right .goodsP1con p>a{
+  margin-left: -8px;
+  color: #fff;
+}
+.shopCon2{
+  padding: 30px 0 20px;
+  background-color: #fff;
+}
+.shopCon2 .w-1000 h3{
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.myrecom .myrec{
+  position: relative;
+  width: 250px;
+  height: 216px;
+  cursor: pointer;
+}
+.myrecom .myrecc{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+  height: 216px;
+}
+.myrecom .myrec .myrebg{
+  background: url("../images/maskbg.png")no-repeat center bottom;
+  z-index: 9;
+}
+.myrecom .myrec .myrecimg{
+  background: url("../images/myhb.png")no-repeat center;
+  background-position-y:15px;
+  transition: all .2s linear;
+}
+.myrecom .myrec .myrecimg2{
+  background-image: url("../images/myhf.png");
+}
+.myrecom .myrec .myrecimg3{
+  background-image: url("../images/myjd.png");
+}
+.myrecom .myrec .myrecimg4{
+  background-image: url("../images/myhgq.png");
+}
+.myrecom .myrec:hover .myrecimg{
+  background-position-y:5px;
+}
+.shopCon3{
+  padding-top: 44px;
+  padding-bottom: 84px;
+  background-color: #ffdd0e;
+}
+.shopCon3 h3{
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.shopCon3c .shopCon3cc{
+  width: 230px;
+  height: 300px;
+  margin: 0 10px;
+  background-color: #fff;
+}
+.shopCon3c .shopCon3cc p{
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 15px;
+  color: #1f1f1f;
+  text-align: center;
+}
+.shopCon3c .shopCon3cc img{
+  width: 230px;
+}
+.shopCon3c .shopCon3cc a{
+  display: block;
+  width: 174px;
+  height: 37px;
+  margin: 0 auto;
+  background: url("../images/shopConBtn.png")no-repeat center;
+  line-height: 37px;
+  text-align: center;
+  font-size: 17px;
+  color: #ff903f;
+}
+.shopCon3c .shopCon3cc a:hover{
+  background-image: url("../images/shopConBtnh.png");
+  color: #fff;
+}
+.shopCon3c .shopCon3cc .txt{
+  margin-top: 20px;
+  padding: 0 15px;
+  font-size: 14px;
+  line-height: 27px;
+  vertical-align: middle;
+}
+.shopCon3c .shopCon3cc .txt span i{
+  margin-left: -5px;
+  color: #f9926c;
+}
+.shopCon4{
+  padding-top: 61px;
+  padding-bottom: 70px;
+  background-color: #fff;
+}
+.shopCon4 h3{
+  width: 100%;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.shopCon4 .shopCon4c .shopCon4cc{
+  width: 230px;
+  height: 290px;
+  padding: 5px;
+  margin: 0 10px ;
+  cursor: pointer;
+}
+.shopCon4 .shopCon4c .shopCon4cc:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.shopCon4c .shopCon4cc .img img{
+  width: 220px;
+}
+.shopCon4 .shopCon4c .shopCon4cc a{
+  display: block;
+  width: 174px;
+  height: 37px;
+  margin: 33px auto 20px;
+  background: url("../images/shopConBtn.png")no-repeat center;
+  line-height: 37px;
+  text-align: center;
+  font-size: 17px;
+  color: #ff903f;
+}
+.shopCon4 .shopCon4c .shopCon4cc:hover a{
+  background-image: url("../images/shopConBtnh.png");
+  color: #fff;
+}
+.shopCon4cc .txt span i{
+  width: 50%;
+  margin-left: -5px;
+  font-size: 14px;
+  color:#f9926c;
+}
+.shopCon5{
+  width: 100%;
+  padding: 80px 0 90px;
+  background: url("../images/lingbg.png")repeat-x left top;
+}
+.shopCon5 .shopCon5c h3{
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.shopCon5 .shopCon5c p{
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 17px;
+  color: #c0c0c0;
+}
+.shopCon5 .shopCon5c .shopCon5-img{
+  width: 1000px;
+  height: 158px;
+  padding: 20px 50px 0;
+  background: url("../images/bottombg.png")no-repeat center;
+}
+.shopCon5 .shopCon5c .shopCon5-img div{
+  margin: 0 84px;
+}
+.shopCon5 .shopCon5c a{
+  display: block;
+  width: 128px;
+  height: 33px;
+  margin: 0 auto;
+  border: 1px solid #d4d4d4;
+  border-radius: 33px;
+  text-align: center;
+  font-size: 17px;
+  color: #d4d4d4;
+  line-height: 33px;
+}
+.shopCon5 .shopCon5c a:hover{
+  border-color: #ffb77a;
+  background:rgba(255,183,122,.5);
+  color: #ffae46;
 }

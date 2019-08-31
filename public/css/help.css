@@ -67,7 +67,6 @@
   padding: 30px 0;
   font-size: 14px;
 }
-
 .tab-content .tab-pane .help-con .help-des .help-tit{
   padding-left: 25px;
   background:url("../images/icon_icon.png")no-repeat 10px 20px;
@@ -79,16 +78,12 @@
 .tab-pane .help-con .help-des .help-tit:hover a{
   color: #ffc94f;
 }
-.tab-pane .help-con .help-des .help-txt{
+.tab-pane .help-con .help-des>.help-txt{
   display: none;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 10px;
   background-color: #f6f6f6;
   line-height: 26px;
-  transition: height 1s linear;
-}
-.tab-pane .help-con .help-des .on{
-  display: block;
 }
 .tab-pane .help-con .help-des .help-txt p{
   margin-bottom: 0;

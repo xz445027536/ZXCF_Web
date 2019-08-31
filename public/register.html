@@ -54,10 +54,11 @@
             </i>
           </h2>
           <div class="text">
-            <input id="uname" class="username w-100" type="text" placeholder="用户名/手机号">
+            <input id="uname" class="username w-100" type="text" placeholder="用户名/手机号" maxlength="12">
+            <p class="up"></p>
           </div>
           <div class="text">
-            <input id="pwd" class="password w-100" type="password" placeholder="密码">
+            <input id="pwd" class="password w-100" type="password" placeholder="密码" maxlength="20">
           </div>
           <div class="text">
             <input id="qpwd" class="password w-100" type="password" placeholder="确认密码">
@@ -147,5 +148,12 @@
       </div>
     </div>
   </footer>
+  <script>
+    $(function () {
+      $("input.uname").click(function () {
+        $("p.up").innerHTML="用户名由6-12位数字、小写字母组成"
+      })
+    })
+  </script>
 </body>
 </html>
